@@ -1,0 +1,55 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: Calibri, Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+div.mdx {
+    padding: 1ex;
+    font-variant-numeric: oldstyle-nums;
+    display: grid;
+    grid-template-columns: 1fr min(65ch, 100%) 1fr;
+}
+div.mdx > * {
+    grid-column: 2;
+}
+.full-bleed {
+    width: 100%;
+    grid-column: 1 / 4;
+}
+
+code {
+    font-variant-numeric: tabular-nums;
+    font-family: "JetBrains Mono", Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, monospace
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+.revisions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 1ex;
+    a {
+        color: inherit;
+    }
+}
+
+nav {
+    padding-top: 1ex;
+}
+
+.meta {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    margin-top: 1ex;
+}

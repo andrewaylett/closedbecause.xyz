@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <main>
+      <h1
+        class="title"
+      >
+        Closed Because...
+      </h1>
+      <p
+        class="description"
+      >
+        Insert '90s “site under construction” gif here.
+      </p>
+      <div
+        class="description"
+      />
+    </main>
+    <footer>
+      <a
+        href="/_logs"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Powered by 
+        <img
+          alt="Vercel Logo"
+          class="logo"
+          src="/vercel.svg"
+        />
+      </a>
+    </footer>
+  </div>
+</DocumentFragment>
+`;

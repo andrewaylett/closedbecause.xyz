@@ -1,0 +1,22 @@
+.page {
+    padding: 1ex;
+    font-variant-numeric: oldstyle-nums;
+    display: grid;
+    grid-template-columns: 1fr min(65ch, 100%) 1fr;
+}
+
+.page > * {
+    grid-column: 2;
+}
+
+.revision {
+    font-size: smaller;
+}
+
+.revision::before {
+    content: ' (';
+}
+
+.revision::after {
+    content: ')';
+}
